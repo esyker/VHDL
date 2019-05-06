@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1481756290">
+  <File Type="ROUTE-PWR-RPX" Name="sd_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="sd.tcl"/>
+  <File Type="INIT-TIMING" Name="sd_timing_summary_init.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="sd_methodology_drc_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="sd_drc_pwropted.rpt"/>
+  <File Type="RDI-RDI" Name="sd.vdi"/>
+  <File Type="OPT-DCP" Name="sd_opt.dcp"/>
+  <File Type="OPT-HWDEF" Name="sd.hwdef"/>
+  <File Type="OPT-DRC" Name="sd_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="sd_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="sd_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="sd_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="sd_placed.dcp"/>
+  <File Type="PLACE-IO" Name="sd_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="sd_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="sd_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="sd_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="sd_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="sd_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="sd_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="sd_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="sd_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="sd_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="sd_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="sd_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="sd_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="sd_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="sd_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="sd_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="sd_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="sd_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="sd_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="sd.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="sd_methodology_drc_routed.rpt"/>
+  <File Type="BG-DRC" Name="sd.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="sd_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-MSK" Name="sd.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="sd_methodology_drc_routed.pb"/>
+  <File Type="BG-BGN" Name="sd.bgn"/>
+  <File Type="ROUTE-PWR" Name="sd_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="sd_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="sd_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="sd_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="sd_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="sd_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="sd_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="sd_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="sd_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="sd_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="sd_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="sd_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="sd_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="sd_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="sd.bit"/>
+  <File Type="BITSTR-RBT" Name="sd.rbt"/>
+  <File Type="BITSTR-NKY" Name="sd.nky"/>
+  <File Type="BITSTR-BMM" Name="sd_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="sd.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="sd.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/design/ff_de.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../lab5_srcV2.2/design/ff_de.vhd"/>
+        <Attr Name="ImportTime" Val="1480857120"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/ctr_16.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../lab5_srcV2.2/design/ctr_16.vhd"/>
+        <Attr Name="ImportTime" Val="1480342216"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/circuito_dados.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Nova pasta/lab5/lab5.srcs/sources_1/new/circuito_dados.vhd"/>
+        <Attr Name="ImportTime" Val="1481140452"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/maquina_estados.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Nova pasta/lab5/lab5.srcs/sources_1/new/maquina_estados.vhd"/>
+        <Attr Name="ImportTime" Val="1481135915"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/placa/disp7.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../lab5_srcV2.2/placa/disp7.vhd"/>
+        <Attr Name="ImportTime" Val="1480157706"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/placa/clkdiv.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../lab5_srcV2.2/placa/clkdiv.vhd"/>
+        <Attr Name="ImportTime" Val="1480157706"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/code_mgr.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../lab5_srcV2.2/design/code_mgr.vhd"/>
+        <Attr Name="ImportTime" Val="1480723024"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/placa/sd.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../lab5_srcV2.2/placa/sd.vhd"/>
+        <Attr Name="ImportTime" Val="1480718608"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="sd"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/placa/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../lab5_srcV2.2/placa/Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1480157706"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

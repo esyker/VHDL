@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1481755888">
+  <File Type="PA-TCL" Name="sd.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="sd_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="sd.vds"/>
+  <File Type="RDS-UTIL" Name="sd_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="sd_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="sd.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="sd_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="sd_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/design/ff_de.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../lab5_srcV2.2/design/ff_de.vhd"/>
+        <Attr Name="ImportTime" Val="1480857120"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/ctr_16.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../lab5_srcV2.2/design/ctr_16.vhd"/>
+        <Attr Name="ImportTime" Val="1480342216"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/circuito_dados.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Nova pasta/lab5/lab5.srcs/sources_1/new/circuito_dados.vhd"/>
+        <Attr Name="ImportTime" Val="1481140452"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/maquina_estados.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Nova pasta/lab5/lab5.srcs/sources_1/new/maquina_estados.vhd"/>
+        <Attr Name="ImportTime" Val="1481135915"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/placa/disp7.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../lab5_srcV2.2/placa/disp7.vhd"/>
+        <Attr Name="ImportTime" Val="1480157706"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/placa/clkdiv.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../lab5_srcV2.2/placa/clkdiv.vhd"/>
+        <Attr Name="ImportTime" Val="1480157706"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/code_mgr.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../lab5_srcV2.2/design/code_mgr.vhd"/>
+        <Attr Name="ImportTime" Val="1480723024"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/placa/sd.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../lab5_srcV2.2/placa/sd.vhd"/>
+        <Attr Name="ImportTime" Val="1480718608"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="sd"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/placa/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../lab5_srcV2.2/placa/Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1480157706"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

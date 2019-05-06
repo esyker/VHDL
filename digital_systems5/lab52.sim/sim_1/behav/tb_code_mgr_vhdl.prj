@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../lab5.srcs/sources_1/imports/design/ff_de.vhd"
+vhdl xil_defaultlib  "../../../lab5.srcs/sources_1/imports/design/ctr_16.vhd"
+vhdl xil_defaultlib  "../../../lab5.srcs/sources_1/new/circuito_dados.vhd"
+vhdl xil_defaultlib  "../../../lab5.srcs/sources_1/new/maquina_estados.vhd"
+vhdl xil_defaultlib  "../../../lab5.srcs/sources_1/imports/design/code_mgr.vhd"
+vhdl xil_defaultlib  "../../../lab5.srcs/sim_1/imports/testbench/tb_code_mgr.vhd"
+
+# Do not sort compile order
+nosort

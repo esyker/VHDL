@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Wed Dec 14 22:46:14 2016
+# Process ID: 10392
+# Current directory: C:/Users/Maria/Desktop/lab52
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12840 C:\Users\Maria\Desktop\lab52\lab52.xpr
+# Log file: C:/Users/Maria/Desktop/lab52/vivado.log
+# Journal file: C:/Users/Maria/Desktop/lab52\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Maria/Desktop/lab52/lab52.xpr
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+archive_project C:/Users/Maria/Desktop/lab52.xpr.zip -temp_dir C:/Users/Maria/Desktop/lab52/.Xil/Vivado-10392-PC -force
